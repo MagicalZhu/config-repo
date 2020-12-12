@@ -10,6 +10,6 @@ spring:
       service-name: cloud-config-client
       instance-id: ${spring.application.name}
 config:
-  info: infoVersion3
-  msg: msgVersion3
+  info: infoVersion4
+  msg: msgVersion4
 
