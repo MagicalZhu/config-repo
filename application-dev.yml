@@ -1,6 +1,12 @@
 server:
-  port: 3344
+  port: 3355
 spring:
   application:
-    name: cloud-config-center-3344
+    name: cloud-config-client-3355
+  consul:
+    host: localhost
+    port: 8500
+    discovery:
+      service-name: cloud-config-client
+      instance-id: ${spring.application.name}
 
