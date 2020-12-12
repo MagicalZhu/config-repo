@@ -10,5 +10,6 @@ spring:
       service-name: cloud-config-client
       instance-id: ${spring.application.name}
 config:
-  info: 测试。。。。
+  info:info....
+  msg: msg...
 
