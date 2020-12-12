@@ -10,5 +10,5 @@ spring:
       service-name: cloud-config-client
       instance-id: ${spring.application.name}
 config:
-  info: version3
+  info: 测试。。。。
 
