@@ -10,5 +10,5 @@ spring:
       service-name: cloud-config-client
       instance-id: ${spring.application.name}
 config:
-  info: application-prod.version=2
-  msg: application-prod.msg=test2
+  info: application-prod.version=3
+  msg: application-prod.msg=test3
