@@ -9,5 +9,6 @@ spring:
     discovery:
       service-name: cloud-config-client
       instance-id: ${spring.application.name}
-info: version=1
+config:
+  info: version1
 
